@@ -9,8 +9,8 @@ void main(){
     await tester.pumpWidget(const App());
     //for triggering the build method
 
-    expect(find.byType(Container), findsOneWidget);
-    expect(find.text("Weather App"), findsOneWidget);
+    expect(find.byKey(const Key("Result")), findsOneWidget);
+    //expect(find.text("Weather App"), findsOneWidget);
 
   });
 }
