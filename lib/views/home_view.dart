@@ -9,6 +9,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const  Scaffold(
+      
       backgroundColor: Colors.deepOrange,
       //SafeArea provides some padding to the app from top and bottom so that we face issue
       body: SafeArea(

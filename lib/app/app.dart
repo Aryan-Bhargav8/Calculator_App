@@ -9,6 +9,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: "Calculator App",
       theme:  ThemeData(
         primarySwatch: Colors.red,
